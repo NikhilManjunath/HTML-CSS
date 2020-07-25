@@ -1,0 +1,1 @@
+transitions are similar to animations, except they occur smoothly and for specific functions

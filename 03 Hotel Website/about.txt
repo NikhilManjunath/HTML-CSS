@@ -1,0 +1,16 @@
+Some of the contents like navbar and footer remain same for all the 3 pages
+
+set image width to <=100% so that the image is contained in its container and doesnt break out
+also make the display block
+
+padding utility classes created
+
+opacity makes the section transparent
+
+..................Responsive Layout..........
+
+copy mobile.css link to every single page for it to take effect
+
+1. Remove float for the about-info section
+
+2. Make sure testimonials dont come out of the box by keeping height to 100% in styles.css

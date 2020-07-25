@@ -1,0 +1,1 @@
+li:nth-child can be used for styling only the required items

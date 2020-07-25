@@ -1,0 +1,5 @@
+when grid-template-rows is used for 3 columns only the first 3 are styled. The rest retain their original widths. This is called implicit styling
+
+grid-auto-rows: 3fr; -> will make the widths of the rest of the rows same as the third one
+
+grid allows us to design 2d layouts - use both grid-template-columns and grid-template-rows

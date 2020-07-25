@@ -1,0 +1,13 @@
+unlike flex, display: grid does not automatically change items into a row
+
+to do that we need to specify grid-template-columns
+eg: grid-template-columns: 200px 200px 200px; -> 3 columns of width 200px
+
+auto for any of the columns makes sure that that item fills the width of the remaining container
+
+repeat(3, auto) -> 3 columns of same size such that they fill up the width
+repeat(3, 200px) -> 3 cols of width 200px each
+
+most common unit used for Grid is fr (fraction)
+
+grid-gap is added for the spacing in between

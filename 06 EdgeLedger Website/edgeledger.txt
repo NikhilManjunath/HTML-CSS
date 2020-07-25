@@ -1,0 +1,70 @@
+copy the font awesome link to all the pages
+2 CSS sheets - style.css and utilities.css
+
+link for utilities before link for style so that if we want to overwrite any utility stiles, it can be done
+
+<a href="#home"> -> will go to that section of the page
+
+position: fixed
+top: 0px
+-> the section always stays fixed at the top
+
+font-weight makes the font bolder
+
+
+for the header section, 3 flexboxes are used: one for the navbar, one for the links in the ul and one for the content.
+
+For the header background to cover the enitre display, use 100vh as height
+position: relative is used for overlay of the image (making the background image darker)
+
+Although,
+  align-items: center;
+  justify-content: center; 
+  are used, the text wont align at the middle. 
+  To make it align at the middle,
+  height = 100% is used.
+
+** For Overlay **
+.hero::before {
+  background: rgba(0, 0, 0, 0.6);  0.6 -> transparency
+}
+
+The text and the button are behind the overlay. In order to bring them front, we use z-index for everything inside the hero
+
+** Icons **
+Flexbox used:
+ -> flex-direction: row (default)
+
+** About Solutions **
+Flex is used twice here
+-> the class "row" contents are kept in a row and flex wrap is used so that after a certain size, the contents move to the next row
+-> the contents of the class column are aligned in a column
+
+object-fit: cover is used on the image so that the image is not stretched to fit the width. It instead covers the width smoothly
+
+** Business Cases **
+Again Flex is  used for this section similar to how it was used in the previous section
+
+** Blog **
+This section is same as the solutions section, only difference -> img on the right
+Therefore flex-reverse is used
+
+** Team **
+This section is very similar to the Business Cases section so same properties are used
+
+** Request Callback **
+Again the section is same as the solutions section, hence same properties used
+
+
+** Blog.html **
+the links are changed from #about to index.html#about (because they belong to a different page)
+
+Use the HTML for solutions section for all the three blog posts
+
+** Post.html **
+styling same as blog.html 
+use display: block for image styling
+
+
+** Adding a logo of the website on the title **
+Google -> dynamic drive favicon -> open website -> choose image -> create icon -> download -> save it in EdgeLedger folder -> copy the link and paste it to the index.html page above the stylesheets

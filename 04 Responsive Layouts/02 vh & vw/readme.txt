@@ -1,0 +1,8 @@
+VH and VW - viewport height and width
+
+viewport area - browser body
+
+viweport is equal to 100 horizontal viewport height slices or 100 vertical viewport width slices
+50vh = 50 horizontal slices of viewport
+very helpful for landing pages
+

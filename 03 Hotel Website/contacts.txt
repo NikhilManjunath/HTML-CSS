@@ -1,0 +1,8 @@
+copy font-awesome link
+
+
+:focus in css is used to style the outline of the form input area
+
+..................Responsive Layouts..............
+
+1. Boxes already made responsive due to it being a Utility Class

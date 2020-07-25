@@ -1,0 +1,1 @@
+Animations can also be done in terms of percentages also

@@ -1,0 +1,1 @@
+Box shadows are used to provide a shadowy effect

@@ -1,0 +1,43 @@
+Homepage of a website is always index.html
+
+rel='stylesheet' implies we're importing a CSS file
+
+header tag contains navbar and showcase.
+
+navbar -> logo(h1) and navigation(ul)
+** DONT HAVE MORE THAN 1 ID OF THE SAME NAME **
+Since all the text in the navbar are links, add color specifically
+A container is used inside navbar to make sure the text aligns at the middle
+
+logo -> make sure it goes to homepage when clicked
+
+
+CSS is done section-wise
+
+Main Styling - styling core elements (body, p, h1)
+
+Utility Classes are those which are used repeatedly. Acts like a framework, i.e. if we need to add more sections/pages to a website, we can use these classes instead of rewrting them again
+
+showcase -> container used again
+ - text-primary, lead and btn are utility classes
+
+features -> icons taken from fontawesome.com (copy the link tag to use the fonts and paste it in the head section)
+ - paste the link to the icons in the divs
+ - change icon size using fa-3x(3 times bigger)
+
+ ** clr must be done after float **
+
+...............Responsive Layout.................................
+
+new CSS file for RL
+
+1. In smaller devices, the Navbar links must be centered and vertical and smaller
+
+Therefore float is removed and padding is reduced
+
+2. In home info, change height in styles.css so it covers the entire text when the screen size is reduced
+
+Also get rid of the image on smaller devices so that the text is not compressed and remove float
+
+3. The 3 boxes also need to be vertical so remove float and increase width
+

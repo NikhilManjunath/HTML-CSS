@@ -1,0 +1,3 @@
+grid areas can be used instead of rows and columns to directly map the sections of a container
+
+grid-area must be specified for each section and then the grid-template-area can be used

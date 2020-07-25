@@ -1,0 +1,19 @@
+Menu wrap is going to cover everything, including the overlay
+position: fixed because when we croll down we dont want the menu toscroll down
+z-index of 1 because we want it always on the top
+
+Toggler/Checkbox is positioned such that it sits over the actual hamburger class but it is made invisible (opacity = 0)
+
+Hambuerger class takes care of the box at the top-left
+
+Inner div is used to create a line of width 100% and height 2px
+Before and after pseudo selectors are used to create 2 more lines above and below the first line
+
+
+We use transform and rotate to convert the lines into X when clicked
+.menu-wrap .toggler:checked {} + .hamburger > div -> style will only be in effect when checkbox is checked and the style is on the div
+First we make the lines rotate by 135deg when checked
+Then we make the before and after lines to rotate by 90 deg
+
+
+Transform scale(0) is used so that it appears only when checked
