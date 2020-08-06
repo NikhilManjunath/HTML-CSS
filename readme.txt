@@ -47,4 +47,38 @@ The folder includes the following demos:
 3. em & rem
 Upon learning to make websites responsive, the same is impemented on the Hotel Website designed previously
 
-05 
+05 FlexBox
+This Folder explores Flexbox, a more powerful CSS alternative to Float for Alignment
+
+06 EdgeLedger Website
+A website is designed by using Flexbox for CSS Design
+
+07 Advanced CSS Concepts
+This folder explores the more advanced concepts of CSS such as:
+1. Targeted Selectors
+2. nth Child
+3. Before and After
+4. Box Shadows
+5. Text Shadows
+6. Variables
+7. Keyframes
+8. Transitions
+9. Transform
+
+08 Presentation Website
+09 Hamburger Website
+10 Knowledge Timeline
+The following Websites are designed using the concepts learnt through Advanced CSS Concepts
+
+11 CSS Grid
+This folder explores the CSS Grid, a powerful tool capable of designing 2D layouts 
+The folder includes demos on:
+1. Grid Columns
+2. Grid Rows
+3. Grid Span
+4. Minimax
+5. Grid Areas
+6. Grid Media Queries
+
+12. Semantics Error vs Syntax Error
+This Folder highights key differences between a Semantics and a Syntax Error
